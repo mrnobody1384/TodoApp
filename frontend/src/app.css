@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VazirMatn", serif;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  transform: translateX(0, -50%);
+  padding: 20px;
+  width: 500px;
+  background-color: #1b1a17;
+  border-radius: 10px;
+}

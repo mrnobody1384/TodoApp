@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 50%;
+}
+
+.inputs > input {
+  border-color: #a35709;
+  background-color: #1f1e1b;
+  color: #f0e3ca;
+  border-style: inset;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: none;
+  outline: none;
+  height: 25px;
+}
+
+.title {
+  width: 100%;
+}
+
+.AddButton {
+  width: 50px;
+  height: 40px;
+  border-color: #a35709;
+  background-color: #1f1e1b;
+  color: #f0e3ca;
+  border-style: inset;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: none;
+  outline: none;
+}
+
+.AddButton > button {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+}

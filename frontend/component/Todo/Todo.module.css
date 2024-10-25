@@ -1,0 +1,45 @@
+.container {
+  /* border-color: ; */
+  border: 2px solid #a35709;
+  width: 80%;
+  border-radius: 8px;
+  padding: 3px 10px;
+  background-color: #1f1e1b;
+}
+
+.taskBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0 2px 2px;
+  width: 100%;
+}
+
+.texts {
+  cursor: pointer;
+  direction: rtl;
+}
+
+.title {
+  width: 100%;
+  color: #f0e3ca;
+}
+.body {
+  color: #f0e3ca;
+}
+
+.deleteButton {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ff8303;
+  background-color: #1b1a17;
+}
+.deleteButton > button {
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+  border: 2px solid #ff8303;
+  background-color: inherit;
+}
